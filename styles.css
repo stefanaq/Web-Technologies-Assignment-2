@@ -1,0 +1,61 @@
+@import url('https://googleapis.com');
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #18122B;
+    margin: 0;
+    padding: 40px 0;
+    color: #F5F3FF;
+}
+
+#form-title{
+    line-height: 40px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #A78BFA;
+    font-family: 'Bebas Neue',sans-serif;
+}
+
+.form-container{
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px, solid, #334155;
+    border-radius: 20px;
+    background-color:#393053;
+}
+
+.form-group input, .form-group select{
+    width: 100%;
+    display: block;
+    padding: 10px 12px;
+    border: 1px, solid, #8B7BA8;
+    background-color: #393053;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.form-group input[type='submit'] {
+    background-color: #A78BFA;
+    color : #18122B;
+    border: none;
+    border-radius: 6px;
+}
+
+.radio-group{
+    display: flex;
+    align-items: center;
+    accent-color: #A78BFA;
+}
+
+.form-group input:focus, .form-group select:focus{
+    border: 2px, solid, #C4B5FD;
+    outline: none;
+}
+
+.form-group input[type='submit']:hover{
+    background-color: #6D28D9;
+    color: white;
+    cursor: pointer;
+    border:none
+}

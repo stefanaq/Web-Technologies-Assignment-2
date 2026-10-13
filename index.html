@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Registration Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+    <h1 id="form-title">Developer Workshop Registration</h1>
+
+    <form action="" method="post" id="registration-form">
+        <div class="form-group">
+            <label for="name">Full Name </label> 
+            <input type="text" id="name" name="name" required> <br><br>
+
+            <label for="email">Email </label>
+            <input type="email" id="email" name="email" required> <br><br>
+
+
+            <label for="experiencelvl">Experience Level </label>
+            <select name="experiencelvl" id="experiencelvl">
+                <option value="Beginner">Beginner</option>
+                <option value="Intermidiate">Intermidate</option>
+                <option value="Advanced">Advanced</option>
+            </select><br><br>
+
+            
+            <label>Workshop Track </label><br><br>
+            <div class="radio-group">
+                <label for="frontend">Frontend Web</label>
+                <input type="radio" id="frontend" name="workshoptrack">
+
+                <label for="backend">Backend API's</label>
+                <input type="radio" id="backend" name="workshoptrack">
+
+                <label for="uiux">UI/UX Design</label>
+                <input type="radio" id="uiux" name="workshoptrack">
+            </div><br><br>
+
+
+            <label for="notifications">Recieve notifications?</label>
+            <input type="checkbox" id="notifications" name="notifications"><br><br>
+
+            
+            <input type="submit" value="Register Now">
+
+        </div>
+    </form>
+
+    </div>
+
+
+</body>
+</html>
